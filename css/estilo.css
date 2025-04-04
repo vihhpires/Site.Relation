@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(187, 188, 188);
+}
+
+header{
+    background-color: azure;
+}
+
+.conteiner{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+figure{
+    text-align: center;
+    width: 90%;
+}
+ 
+
+h1{
+    color: rgb(255, 246, 167);
+    text-align: center;
+}
+
+p{
+    text-indent: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(220, 210, 210,0.6);
+    padding: 1%;
+    
+}
+
+.Personagens{
+    display: flex;
+    gap: 20px;
+}
+
+.img-enredo{
+    border-radius: 50%;
+    text-align: center;
+    width: 90%;
+}
+
+
