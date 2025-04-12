@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(187, 188, 188);
 }
@@ -10,11 +17,39 @@ body{
 }
 
 header{
-    background-color: azure;
+    background-color: rgb(225,225,225,0.6);
+    margin-bottom: 0px;
+    width: 100%;
+    top: 0;
 }
 
-.Bunner{
-    width: 40%;
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1%;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.bunner{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
 }
 
 .logo{
@@ -29,6 +64,7 @@ header{
 
 figure{
     text-align: center;
+    padding-left: 78px;
     width: 90%;
 }
    .img1{
@@ -67,6 +103,7 @@ figure{
 h1{
     color: rgb(255, 246, 167);
     text-align: center;
+    line-height: 3;
 }
 
 .color{
@@ -80,11 +117,15 @@ h3{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
 p{
     text-indent: 20px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 footer{
@@ -96,7 +137,9 @@ footer{
 
 .Personagens{
     display: flex;
-    gap: 15px;
+    gap: 25px;
+    width: 70%;
+    margin-top: 20px;
 }
 
 .img-enredo figure{
@@ -107,8 +150,8 @@ table{
     border-collapse: collapse;
     width: 80%;
     font-size: 1.2em;
-    margin-right: 20px;
-    margin-left: 116px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 td,th{
@@ -126,6 +169,7 @@ ul{
     list-style: none;
     text-align: center;
     line-height: 1.5em;
+    margin-bottom: 20px;
 }
 
 .play{
@@ -135,12 +179,21 @@ ul{
     margin-right: auto;
 }
 
-.sobre-fundo{
+.sobrefundo{
     background-image: url(../img/sobrefundooriginal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
+ul li a{
+    text-decoration: none;
+    color: rgb(252, 241, 139);
+}
+
+
+
+
 
 
 
